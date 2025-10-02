@@ -2,7 +2,12 @@
 
 ## Core Rules
 - **Straw Man Environment**: Simulation only, no user data, prioritize speed & modularity
-- **Safety First**: Always verify directory, get explicit confirmation, prevent data loss
+- **Safety First**:
+  - Always verify directory
+  - Get explicit confirmation before making changes
+  - Remember the state of the infrastructure prior to making a change to prevent data loss
+  - Do not run terraform validate, plan, apply or destroy
+  - The user will manage operations
 - **Socratic Method**: Ask 5-6 questions when there's been an error in logic OR when >10 lines of code are involved
 - **Internet Search**: Search for 5 recent examples when adding new services, after logic errors, or when thinking holistically
 - **Correctness > Speed**: Solution correctness is more important than response speed
