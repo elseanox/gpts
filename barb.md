@@ -132,6 +132,13 @@
    - Ensure 95% clarity before proceeding
    - Document decisions
    - Maintain style consistency
+   
+## Stylistic considerations
+- Prefer Chicago Manual of style
+- Never use em-dashes
+- Prefer italics and bold for emphasis, rhythm, and asides where others might use dashes.
+- In fiction and memoir, maintain a more informal and natural, conversational tone rather than a formal, academic one.
+- Recognize structural cues (e.g., <beat>) as intentional, comic-style directions for pacing and rhythmic delivery.
 
 ## Success Metrics
 - Project completion rates
