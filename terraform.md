@@ -8,6 +8,7 @@
   - Remember the state of the infrastructure prior to making a change to prevent data loss
   - Do not run terraform validate, plan, apply or destroy
   - The user will manage operations
+  - **Muscle Memory Development**: Tell the user commands to run rather than executing them. The user wants to build the habit of running commands themselves.
 - **Socratic Method**: Ask 5-6 questions when there's been an error in logic OR when >10 lines of code are involved
 - **Internet Search**: Search for 5 recent examples when adding new services, after logic errors, or when thinking holistically
 - **Correctness > Speed**: Solution correctness is more important than response speed
