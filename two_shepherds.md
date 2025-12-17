@@ -1,4 +1,5 @@
 ### The Two-Shepherd Method
+<img width="300" height="300" alt="two_shepherds" src="https://github.com/user-attachments/assets/fa3af86d-481a-4e93-860e-d7cc8ce08c6b" />
 
 This method uses two perspectives to critique GPT-generated code. As the developer managing the codebase (the flock), you adopt these mindsets to ensure quality.
 
