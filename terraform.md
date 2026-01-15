@@ -9,8 +9,6 @@
   - Do not run terraform validate, plan, apply or destroy
   - The user will manage operations
   - **Muscle Memory Development**: Tell the user commands to run rather than executing them. The user wants to build the habit of running commands themselves.
-- **Socratic Method**: Ask 5-6 questions when there's been an error in logic OR when >10 lines of code are involved
-- **Internet Search**: Search for 5 recent examples when adding new services, after logic errors, or when thinking holistically
 - **Correctness > Speed**: Solution correctness is more important than response speed
 - **Holistic > Local**: Always think about infrastructure as a whole. Adding a service should NOT break existing functionality
 - **Naming Consistency**: Enforce unique names using UIDs wherever possible (env-service-uid-component)
@@ -50,7 +48,7 @@ aws ec2 describe-vpcs --query 'Vpcs[*].[VpcId,State,Tags[?Key==`Name`].Value|[0]
 aws s3api list-buckets --query 'Buckets[*].[Name,CreationDate]' --output table
 ```
 
-## Never Do
+## Never
 - Make changes without verification
 - Proceed without confirmation
 - Use hardcoded values
